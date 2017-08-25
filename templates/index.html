@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+{% load staticfiles %}
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static "css/bootstrap.min.css" %}">
+    <link rel="stylesheet" href="{% static "style.css" %}">
+    <link rel="stylesheet" href="{% static "css/animate.min.css" %}">
+    <link rel="stylesheet" href="{% static "css/font-awesome.min.css" %}">
+    <link href='https://fonts.googleapis.com/css?family=Lobster&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Josefin+Sans&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <script src="{% static "js/jquery-2.1.0.min.js" %}"></script>
+    <script src="{% static "js/bootstrap.min.js" %}"></script>
+    <script src="{% static "js/blocs.min.js" %}"></script>
+    <script src="{% static "js/lazysizes.min.js" %}" defer></script>
+    <title>Home</title>
+    <!-- Google Analytics -->
+    <!-- Google Analytics END -->
+</head>
+
+<body>
+    <!-- Main container -->
+    <div class="page-container">
+        <!-- bloc-0 -->
+        <div class="bloc bloc-fill-screen bg-forrest d-bloc bgc-black " id="bloc-0">
+            <div class="container fill-bloc-top-edge">
+                <nav class="navbar row">
+                    <div class="navbar-header"><a class="navbar-brand" href="index.html"><img src="{% static "img/logo.png" %}" alt="logo" class="lazyload" />Transbird</a><button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button></div>
+                    <div
+                        class="collapse navbar-collapse navbar-1"></div>
+            </nav>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h1 class="text-center mountain-hero-text animated fadeInUp ">This is a fantastic translation site.</h1>
+                    <h3 class="text-center mg-lg mountain-hero-text-sub animated fadeInUp animDelay06, .animDelay04-hvr">Written by a group of crazy dbas.</h3>
+                    <div class="text-center"><a href="http://www.baidu.com" class="btn-wire btn btn-xl animated fadeIn animDelay1">Get Started</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- bloc-0 END -->
+    </div>
+    <!-- Main container END -->
+</body>
+
+</html>
